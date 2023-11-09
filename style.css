@@ -1,0 +1,212 @@
+nav {
+    background-color: rgb(255,193,7);
+    color: #fff;
+    position: sticky !important;
+}
+
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Toggle:hover{
+    border: none;
+}
+#navbarNavDropdown{
+    color: white;
+
+    text-align: center;
+    margin: 0;
+}
+#drop{
+    text-align: center;
+    color: #fff;
+}
+
+#sticky{
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+}
+#sticky a{
+    color: black;
+}
+
+
+.dropdownitem{
+    color: white !important;
+    
+}
+.icons{
+   justify-content: space-between;
+}
+#nb{
+    font-size: 15px;
+    border-radius: 20px;
+    size: 30px;
+    background-color: white;
+    border-style: none;
+    padding: 8px;
+}
+.dropdown-menu{
+    border-style: none !important;
+}
+
+#nb:hover{
+  box-shadow:2px 2px 20px 1px  rgb(102, 99, 99);
+    transition: 0.4s;
+  background-color: rgb(255, 255, 255);
+}
+
+#banner img{
+    width: 100%;
+    height: 700px;
+   z-index: -100;
+   position: static;
+}
+
+#heading{
+    position: relative;
+    bottom: 350px;
+    left: 150px;
+}
+#navbar{
+    position: sticky;
+}
+#des{
+    position: relative;
+    top: -80px;
+    right: 0px;
+}
+.container p{
+    margin-left: 10px;
+}
+
+#heading-1{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    background-color: rgb(231, 197, 118);
+    height: 130px;
+}
+
+.h1-1{
+    position: relative;
+    top: 40px;
+}
+
+#imgcards{
+    position: relative;
+    top: 100px;
+
+}
+
+#imgcards #ch1{
+    color: black;
+    position: relative;
+    left:90px;
+    top: 100px;
+}
+
+
+.cards{
+    padding: 100px;
+    display: flex;
+    column-gap: 40px;
+    justify-content: space-between ;
+}
+
+.card-body{
+    background-color:rgb(231, 197, 118) ;
+}
+
+.btn{
+    position: relative;
+    bottom: 280px;
+    right: 10px;
+    border-radius: 20px !important;
+    background-color: rgb(228, 187, 105) !important;
+    border-style: none;
+    padding: 8px;
+}
+.card{
+    height: 24rem !important;
+}
+
+.card-title{
+    position: relative;
+    right: 5px;
+}
+.card-text{
+    color: white;
+}
+
+#new {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .card1 {
+    margin: 10px;
+    position: relative;
+  }
+  
+  .card1 img {
+    width: 100%;
+  }
+  
+  .card-body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(164, 159, 159, 0.4);
+    opacity: 0;
+    transition: 0.3s;
+    color: rgb(221, 250, 215);
+    
+  }
+  
+  .card1:hover .card-body1 {
+    opacity: 1;
+  }
+  
+  .num h1{
+    color: rgb(221, 168, 32);
+    font-size: 90px;
+    position: relative;
+    top: 20px;
+  }
+  
+  .s-head h5{
+    position: relative;
+    bottom: 40px;
+  }
+  
+  #why a{
+    text-decoration: none; 
+  }
+
+  #why{
+    padding-top: 70px;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+.fi{
+    position: relative;
+    left: 1300px;
+    bottom: 53px;
+}
+
+
+
